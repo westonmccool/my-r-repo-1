@@ -4,3 +4,5 @@ plot_ts <- function(x, y, ...) {
   plot(x, y, type = 'l', ...)
   lines(x, fitted(fit), col = 2, lwd = 2)
 }
+
+rep("turtles",1000000)
